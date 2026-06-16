@@ -1,6 +1,20 @@
-# craft-kit
+# LorenzoGarese-marketplace
 
-Un plugin (`craft`) con seis skills, cada una en un eje distinto:
+Marketplace de plugins de Claude Code. Un solo `marketplace add` y despues instalas los plugins que quieras.
+
+## Agregar el marketplace
+```
+/plugin marketplace add LorenzoGarese/LorenzoGarese-marketplace
+```
+
+## Plugins disponibles
+
+### craft
+Kit para construir UI de producto con calidad, cada skill en un eje distinto.
+
+```
+/plugin install craft@LorenzoGarese-marketplace
+```
 
 | Skill | Eje |
 |---|---|
@@ -11,8 +25,4 @@ Un plugin (`craft`) con seis skills, cada una en un eje distinto:
 | stop-slop | Textos y microcopy |
 | remotion-best-practices | Creacion de video con Remotion (React) |
 
-## Instalar
-```
-/plugin marketplace add LorenzoGarese/craft-kit
-/plugin install craft@craft-kit
-```
+<!-- Proximos plugins (ej. backend) van como nuevas entradas en .claude-plugin/marketplace.json y carpetas en plugins/ -->
