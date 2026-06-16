@@ -1,0 +1,7 @@
+# Finales de linea consistentes entre maquinas (Windows/macOS/Linux).
+# El repo guarda LF; evita el roundtrip CRLF y silencia los warnings de git.
+* text=auto eol=lf
+
+# Binarios: que git no toque sus finales de linea.
+*.png binary
+*.umd.js binary
