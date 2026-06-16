@@ -1,0 +1,48 @@
+{
+  "_comment": "Procedencia de las skills vendoreadas de craft. Completá 'upstream' (repo/path/ref) de cada una con el lugar real de donde la copiaste. Despues corre: node scripts/update-skills.mjs  para traer la ultima version y reaplicar los parches locales automaticamente.",
+  "skills": [
+    {
+      "name": "frontend-design",
+      "upstream": {
+        "repo": "https://github.com/anthropics/claude-plugins-public.git",
+        "path": "plugins/frontend-design",
+        "ref": "main"
+      },
+      "patches": [],
+      "notes": "Anthropic. Apache-2.0 (incluye LICENSE.txt)."
+    },
+    {
+      "name": "impeccable",
+      "upstream": { "repo": "", "path": "", "ref": "main" },
+      "patches": ["plugin-root-paths"],
+      "replacements": [
+        { "find": "Bash(npx impeccable *)", "replace": "Bash(node ${CLAUDE_PLUGIN_ROOT}/skills/impeccable/scripts/*)" }
+      ],
+      "notes": "TODO: completar upstream (de donde copiaste impeccable). Parche: rutas .claude/skills -> ${CLAUDE_PLUGIN_ROOT} + allowed-tools."
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "upstream": { "repo": "", "path": "", "ref": "main" },
+      "patches": ["plugin-root-paths"],
+      "notes": "TODO: completar upstream. Parche: 'python3 skills/...' -> '${CLAUDE_PLUGIN_ROOT}/skills/...'. La carpeta templates/ se excluye del parche a proposito."
+    },
+    {
+      "name": "design-motion-principles",
+      "upstream": { "repo": "", "path": "", "ref": "main" },
+      "patches": [],
+      "notes": "TODO: completar upstream."
+    },
+    {
+      "name": "stop-slop",
+      "upstream": { "repo": "", "path": "", "ref": "main" },
+      "patches": [],
+      "notes": "Hardik Pandya (hvpandya.com). TODO: completar upstream."
+    },
+    {
+      "name": "remotion-best-practices",
+      "upstream": { "repo": "", "path": "", "ref": "main" },
+      "patches": [],
+      "notes": "Remotion. TODO: completar upstream."
+    }
+  ]
+}

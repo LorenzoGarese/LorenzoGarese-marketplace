@@ -26,3 +26,13 @@ Kit para construir UI de producto con calidad, cada skill en un eje distinto.
 | remotion-best-practices | Creacion de video con Remotion (React) |
 
 <!-- Proximos plugins (ej. backend) van como nuevas entradas en .claude-plugin/marketplace.json y carpetas en plugins/ -->
+
+## Mantenimiento
+
+- **Reproducir el entorno en una PC nueva** → [`setup/SETUP.md`](setup/SETUP.md). El backup real
+  es `~/.claude/settings.json`; en [`setup/claude-settings.snippet.json`](setup/claude-settings.snippet.json)
+  hay una version saneada de las claves portables.
+- **Actualizar skills vendoreadas a su upstream** → `node scripts/update-skills.mjs`. Lee
+  [`plugins/craft/skills/SOURCES.json`](plugins/craft/skills/SOURCES.json) (la procedencia de cada
+  skill) y reaplica los parches locales solo. Completá los `upstream` marcados como TODO con el
+  lugar real de donde sacaste cada skill.

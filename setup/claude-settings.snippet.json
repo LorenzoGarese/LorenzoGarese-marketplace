@@ -1,0 +1,35 @@
+{
+  "model": "opus[1m]",
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "ruflo-core@ruflo": true,
+    "ruflo-swarm@ruflo": true,
+    "craft@LorenzoGarese-marketplace": true
+  },
+  "extraKnownMarketplaces": {
+    "ruflo": {
+      "source": {
+        "source": "github",
+        "repo": "ruvnet/ruflo"
+      }
+    },
+    "LorenzoGarese-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "LorenzoGarese/LorenzoGarese-marketplace"
+      }
+    }
+  },
+  "mcpServers": {
+    "agents-md-generator": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "<INSTALL_DIR>\\agents-md-generator-0.5.3",
+        "agents-md-generator"
+      ]
+    }
+  }
+}
