@@ -31,6 +31,29 @@ Después instalá:
 /plugin install craft@LorenzoGarese-marketplace
 ```
 
+## Plugins generales opcionales (NO instalados todavía)
+
+Candidatos de propósito general para evaluar. **No están en mi `settings.json`** todavía, así que
+NO van en el snippet de backup — quedan acá como lista curada. Si instalás alguno, después
+refrescás el snippet para que entre al set reproducible.
+
+```
+# gsd (Get Shit Done) — workflow estructurado. Trae un MCP server.
+/plugin marketplace add jnuyens/gsd-plugin
+/plugin install gsd@gsd-plugin
+
+# claude-mem — sistema de memoria/compresión de contexto para Claude Code
+/plugin marketplace add thedotmack/claude-mem
+/plugin install claude-mem@thedotmack
+
+# context-mode — manejo de contexto (plugin MCP)
+/plugin marketplace add mksglu/context-mode
+/plugin install context-mode@context-mode
+```
+
+Repos verificados (tienen `.claude-plugin/marketplace.json`): `jnuyens/gsd-plugin`,
+`thedotmack/claude-mem`, `mksglu/context-mode`.
+
 ## Qué NO está en el snippet (a propósito)
 
 - **`permissions`**: son por-proyecto y con rutas absolutas de esta máquina. Se reconstruyen
