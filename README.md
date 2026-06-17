@@ -25,6 +25,17 @@ Kit para construir UI de producto con calidad, cada skill en un eje distinto.
 | stop-slop | Textos y microcopy |
 | remotion-best-practices | Creacion de video con Remotion (React) |
 
+### backend
+Scaffolding de backend .NET (Clean Architecture + CQRS). Genera vertical slices end-to-end con tus convenciones.
+
+```
+/plugin install backend@LorenzoGarese-marketplace
+```
+
+| Skill | Eje |
+|---|---|
+| vertical-slice | Genera una slice CQRS completa (Command/Query + Handler + Validator + Response + endpoint) |
+
 <!-- Proximos plugins (ej. backend) van como nuevas entradas en .claude-plugin/marketplace.json y carpetas en plugins/ -->
 
 ## Mantenimiento
