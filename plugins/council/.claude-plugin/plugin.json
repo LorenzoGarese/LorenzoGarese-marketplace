@@ -1,0 +1,6 @@
+{
+  "name": "council",
+  "version": "0.1.0",
+  "description": "Kit de decision/razonamiento. La skill llm-council corre cualquier pregunta o decision con tradeoffs por un consejo de 5 asesores que analizan en paralelo desde angulos distintos, se revisan entre si de forma anonima, y un chairman sintetiza un veredicto accionable. Basado en la metodologia LLM Council de Karpathy.",
+  "author": { "name": "Garese" }
+}

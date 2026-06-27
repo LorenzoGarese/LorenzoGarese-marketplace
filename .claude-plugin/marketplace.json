@@ -3,6 +3,7 @@
   "owner": { "name": "Garese" },
   "plugins": [
     { "name": "craft", "source": "./plugins/craft", "version": "2.1.0", "description": "Kit de UI de producto: UX (ui-ux-pro-max), gusto (frontend-design), auditoria (impeccable), motion (design-motion-principles), texto (stop-slop), video Remotion (remotion-best-practices)." },
-    { "name": "backend", "source": "./plugins/backend", "version": "0.1.0", "description": "Scaffolding de backend .NET (Clean Architecture + CQRS): vertical slices end-to-end con tus convenciones." }
+    { "name": "backend", "source": "./plugins/backend", "version": "0.1.0", "description": "Scaffolding de backend .NET (Clean Architecture + CQRS): vertical slices end-to-end con tus convenciones." },
+    { "name": "council", "source": "./plugins/council", "version": "0.1.0", "description": "Decision/razonamiento: la skill llm-council corre una decision con tradeoffs por un consejo de 5 asesores (analisis en paralelo + peer review anonimo + sintesis de un chairman)." }
   ]
 }
