@@ -36,6 +36,19 @@ Scaffolding de backend .NET (Clean Architecture + CQRS). Genera vertical slices 
 |---|---|
 | vertical-slice | Genera una slice CQRS completa (Command/Query + Handler + Validator + Response + endpoint) |
 
+### discipline
+Disciplina de desarrollo. Skills de metodologia traidas del framework superpowers, sueltas.
+
+```
+/plugin install discipline@LorenzoGarese-marketplace
+```
+
+| Skill | Eje |
+|---|---|
+| test-driven-development | TDD estricto: red-green-refactor, ningun codigo de produccion sin un test que falle primero, + guia anti-patterns de testing |
+| systematic-debugging | Debugging metodico: hallar la causa raiz antes de proponer fixes (root-cause-tracing, defense-in-depth, condition-based-waiting) |
+| verification-before-completion | Prohibe declarar algo hecho/arreglado/pasando sin correr la verificacion y confirmar el output: evidencia antes que afirmaciones |
+
 ## Mantenimiento
 
 - **Reproducir el entorno en una PC nueva** → [`setup/SETUP.md`](setup/SETUP.md). El backup real

@@ -4,6 +4,7 @@
   "plugins": [
     { "name": "craft", "source": "./plugins/craft", "version": "2.1.0", "description": "Kit de UI de producto: UX (ui-ux-pro-max), gusto (frontend-design), auditoria (impeccable), motion (design-motion-principles), texto (stop-slop), video Remotion (remotion-best-practices)." },
     { "name": "backend", "source": "./plugins/backend", "version": "0.1.0", "description": "Scaffolding de backend .NET (Clean Architecture + CQRS): vertical slices end-to-end con tus convenciones." },
-    { "name": "council", "source": "./plugins/council", "version": "0.1.0", "description": "Decision/razonamiento: la skill llm-council corre una decision con tradeoffs por un consejo de 5 asesores (analisis en paralelo + peer review anonimo + sintesis de un chairman)." }
+    { "name": "council", "source": "./plugins/council", "version": "0.1.0", "description": "Decision/razonamiento: la skill llm-council corre una decision con tradeoffs por un consejo de 5 asesores (analisis en paralelo + peer review anonimo + sintesis de un chairman)." },
+    { "name": "discipline", "source": "./plugins/discipline", "version": "0.2.0", "description": "Disciplina de desarrollo (3 skills de obra/superpowers, MIT): test-driven-development (TDD estricto red-green-refactor + anti-patterns), systematic-debugging (causa raiz antes de fixes) y verification-before-completion (evidencia antes de declarar algo hecho)." }
   ]
 }

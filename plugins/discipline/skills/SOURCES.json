@@ -1,0 +1,35 @@
+{
+  "_comment": "Procedencia (upstream) de cada skill vendoreada de discipline. Corré:  node scripts/update-skills.mjs  para traer la ultima version y reaplicar los parches locales.",
+  "skills": [
+    {
+      "name": "test-driven-development",
+      "upstream": {
+        "repo": "https://github.com/obra/superpowers.git",
+        "path": "skills/test-driven-development",
+        "ref": "main"
+      },
+      "patches": [],
+      "notes": "Jesse Vincent (obra/superpowers). MIT. Copia directa de skills/test-driven-development (SKILL.md + testing-anti-patterns.md). LICENSE del repo incluido como LICENSE.txt. Vendoreado desde commit 896224c4b1879920ab573417e68fd51d2ccc9072."
+    },
+    {
+      "name": "systematic-debugging",
+      "upstream": {
+        "repo": "https://github.com/obra/superpowers.git",
+        "path": "skills/systematic-debugging",
+        "ref": "main"
+      },
+      "patches": [],
+      "notes": "Jesse Vincent (obra/superpowers). MIT. Solo archivos de runtime: SKILL.md + condition-based-waiting.md + defense-in-depth.md + root-cause-tracing.md + condition-based-waiting-example.ts + find-polluter.sh. EXCLUIDOS a proposito los artefactos de dev/eval del upstream (CREATION-LOG.md, test-academic.md, test-pressure-1/2/3.md): un pull crudo los traeria, hay que filtrarlos. Commit 896224c4b1879920ab573417e68fd51d2ccc9072."
+    },
+    {
+      "name": "verification-before-completion",
+      "upstream": {
+        "repo": "https://github.com/obra/superpowers.git",
+        "path": "skills/verification-before-completion",
+        "ref": "main"
+      },
+      "patches": [],
+      "notes": "Jesse Vincent (obra/superpowers). MIT. Copia directa (solo SKILL.md). LICENSE como LICENSE.txt. Commit 896224c4b1879920ab573417e68fd51d2ccc9072."
+    }
+  ]
+}

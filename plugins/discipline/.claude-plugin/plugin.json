@@ -1,0 +1,8 @@
+{
+  "name": "discipline",
+  "version": "0.2.0",
+  "description": "Disciplina de desarrollo (3 skills de obra/superpowers, MIT). test-driven-development impone TDD estricto (red-green-refactor, ningun codigo sin test que falle primero) + anti-patterns de testing. systematic-debugging exige hallar la causa raiz antes de proponer fixes (root-cause-tracing, defense-in-depth, condition-based-waiting). verification-before-completion prohibe declarar algo 'hecho/arreglado' sin correr la verificacion y confirmar el output: evidencia antes que afirmaciones.",
+  "author": {
+    "name": "Garese"
+  }
+}
